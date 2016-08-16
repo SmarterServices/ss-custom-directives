@@ -2,7 +2,7 @@
     <button ng-disabled="vm.examPause" type="button" style="width:100%" class="btn btn-primary dropdown-toggle" id="exampleColorDropdown2" data-toggle="dropdown" aria-expanded="false">{{vm.selectedItem}}
     </button>
     <ul class="dropdown-menu dropdown-menu-primary" aria-labelledby="exampleColorDropdown2" role="menu">
-        <li role="presentation" ng-repeat="item in vm.listItems" ng-class="vm.listMetaData[$index] ? 'active' : '' " ng-click="vm.setSelectedItem(item)"><a href="javascript:void(0)" role="menuitem">{{item}}</a></li>
+        <li role="presentation" ng-repeat="item in vm.listItems track by $index" ng-class="vm.listMetaData[$index] ? 'active' : '' " ng-click="vm.setSelectedItem(item)"><a href="javascript:void(0)" role="menuitem">{{item}}</a></li>
         <li role="presentation" ng-if="vm.allowCustom"><a href="javascript:void(0)" role="menuitem"><input ng-keyup="$event.keyCode == 13 ? vm.setCustomText() : null" style="width:100%" ng-model="vm.customText"/></a></li>
     </ul>
 </div>
