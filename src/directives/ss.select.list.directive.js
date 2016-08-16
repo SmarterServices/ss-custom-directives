@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('ss.custom-directive')
+    angular.module('ss.custom-directives')
         .directive('ssSelectList', ssSelectList);
 
     function ssSelectList() {
@@ -14,7 +14,7 @@
                 allowCustom: '=allowCustom'
             },
             link: linkFunc,
-            templateUrl: 'app/proctor/ss.select.list.directive.html',
+            templateUrl: '../bower_components/ss.custom-directives/src/directives/ss.select.list.directive.html',
             controller: ssSelectListController,
             controllerAs: 'vm',
             bindToController: true,
