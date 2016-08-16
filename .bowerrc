@@ -1,4 +1,4 @@
 {
-  "http://bower.smarterservices.com:5678"
+  "registry" :"http://bower.smarterservices.com:5678",
   "timeout": 300000
 }
