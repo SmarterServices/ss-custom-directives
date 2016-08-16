@@ -1,6 +1,6 @@
 {
   "name": "ss.custom-directives",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "main": [
     "src/ss.cusotmDirectives.module.js",
     "src/ss.select.list.directive.js"
