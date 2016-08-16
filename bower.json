@@ -1,9 +1,9 @@
 {
   "name": "ss.custom-directives",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": [
-    "src/ss.cusotmDirectives.module.js",
-    "src/ss.select.list.directive.js"
+    "src/ss.customDirectives.module.js",
+    "src/directives/ss.select.list.directive.js"
   ],
   "homepage": "",
   "license": "MIT",
