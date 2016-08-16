@@ -1,0 +1,22 @@
+{
+  "name": "ss.custom-directives",
+  "version": "0.0.4",
+  "main": [
+    "src/ss.cusotmDirectives.module.js",
+    "src/ss.select.list.directive.js"
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "angular": "~1.5"
+  }
+}
