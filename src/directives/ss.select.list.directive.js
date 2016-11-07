@@ -14,7 +14,7 @@
                 allowCustom: '=allowCustom'
             },
             link: linkFunc,
-            templateUrl: '../bower_components/ss.custom-directives/src/directives/ss.select.list.directive.html',
+            templateUrl: '../../bower_components/ss.custom-directives/src/directives/ss.select.list.directive.html',
             controller: ssSelectListController,
             controllerAs: 'vm',
             bindToController: true,
